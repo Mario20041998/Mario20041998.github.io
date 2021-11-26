@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS LAYOUT-M.S.B.L</title>
+    <style>
+        h1 {
+            color: rgb(92, 154, 226);
+        }
+
+        #titulo {
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(207, 107, 107);
+        }
+
+        html {
+            background-color: rgba(140, 178, 214, 0.199);
+        }
+
+        #span {
+            background-color: rgb(120, 136, 230);
+        }
+
+        #div {
+            color: grey
+        }
+
+        #overflow {
+            background-color: rgb(208, 224, 161);
+            height: 100px;
+            width: auto;
+            overflow: auto;
+            border: ridge rgb(65, 224, 171) 5px;
+            margin: 5px;
+            padding: 5px
+        }
+
+        #box_model {
+            margin: 20px;
+            padding: none;
+            border: ridge 7px rgb(104, 111, 116)
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">CSS Layout</h1>
+
+    <h2>Span M.S.B.L</h2>
+
+    <p>La etiqueta <strong>"span"</strong> sirve para seleccionar una palabra o un grupo de palabras y modificarlas
+        mediante
+        CSS aplicando un estilo.
+        <span id="span"> Por ejeplo, este texto esta seleccionado por la etiequeta "span" y le he aplicado un estilo.
+
+        </span>
+    </p>
+
+    <div id="div">
+        <h2>Div M.S.B.L</h2>
+
+        <p>La etiqueta <strong>"div"</strong> sirve para seleccionar un rango de palabras más amplio que la etiqueta
+            span.
+            Por ejemplo, este apartado está encerrado en una etiqueta "div".
+        </p>
+    </div>
+
+    <h2>Overflow M.S.B.L</h2>
+
+    <p>A menudo cuando ajustamos un texto a una altura o anchura determinada, este se solapa encima de otro texto que
+        teniamos. Para evitarlo, podemos utilizar el atributo <strong>""overflow</strong> dentre la etiqueta style.
+        "Overflow" lo podemos determinar como visible, oculto o automático, donde se pone una barra de desplazamiento.
+        Para ponerlo en oculto, debes utilizar hidden y para poner una barra de desplazamiento. Por ejemplo, el
+        siguiente texto tiene el overflow automático:
+    </p>
+    <p id="overflow">Felipe IV de España, llamado «el Grande» o «el Rey Planeta» (Valladolid, 8 de abril de 1605-Madrid,
+        17 de septiembre de 1665), fue rey de España2​ desde el 31 de marzo de 1621 hasta su muerte, y de Portugal desde
+        la misma fecha hasta diciembre de 1640. Su reinado de 44 años y 170 días fue el más largo de la casa de Austria
+        y el tercero de la historia española, siendo superado solo por Felipe V y Alfonso XIII, aunque los primeros
+        dieciséis años del reinado de este último fueron bajo regencia.
+
+        Durante la primera etapa de su reinado compartió la responsabilidad de los asuntos de Estado con don Gaspar de
+        Guzmán, conde-duque de Olivares, quien desplegó una ambiciosa política belicista en el exterior y reformista en
+        el interior que buscaba mantener la hegemonía española en Europa. Tras la caída de Olivares, se encargó
+        personalmente de los asuntos de gobierno, ayudado por cortesanos muy influyentes, como Luis Méndez de Haro,
+        sobrino de Olivares, y el duque de Medina de las Torres.
+
+        Los exitosos primeros años de su reinado auguraban la restauración de la preeminencia universal de los
+        Habsburgo,
+        pero la guerra constante de la Europa protestante y la católica Francia contra España condujeron al declive y
+        ruina
+        de la Monarquía Hispánica, que hubo de ceder la hegemonía en Europa a la pujante Francia de Luis XIV, así como
+        reconocer la independencia de Portugal y las Provincias Unidas.
+    </p>
+
+    <h2>Modelo de caja M.S.B.L</h2>
+
+    <p>El modelo de caja es un módulo de CSS que define unas medidas para los elementos de la página web a modo de
+        bloques. Estas medidas son:
+    </p>
+    <ul>
+        <li>Padding: Es la distancia de relleno entre el contenido del elemento y el borde. Podemos modificar esa
+            distancia poniendo padding dentro de la etiqueta style y dentro de un bloque/elemento concreto.</li>
+        <li>Borde: Es el borde, el límite del elemento. Podemos modificar su grosor, color y forma (entre otros)
+            poniendo border dentro de la etiqueta style y de un bloque/elemento concreto.</li>
+        <li>Margen: Es la distancia entre dos elementos. Se puede cambiar la distancia poniendo margin dentro de una
+            etiqueta style y de un bloque/elemento concreot.</li>
+    </ul>
+    La imagen siguiente muestra el modelo de cajas.
+    <p></p>
+    <img src="imagenes/modelo_de_cajas.png" height="150px" id="box_model">
+    <p>Por ejemplo, el padding de la imagen anterior lo he puesto de 0px; el borde lo he hecho con un grosor de 7px, de
+        color gris y con una forma "ridge"; y el margen es de 20px.</p>
+
+
+    <p> <strong>Por Mario Sánchez de la Blanca Lizcano</strong> </p>
+
+    <a href="index.html">Enlace a index</a>
+    <!--Actualizado el 24/11/2021-->
+</body>
+
+</html>
